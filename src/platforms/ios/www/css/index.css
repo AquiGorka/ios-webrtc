@@ -11,3 +11,7 @@ body {
     padding:0px;
     width:100%;
 }
+
+#root{
+  padding-top: 100px;
+}
