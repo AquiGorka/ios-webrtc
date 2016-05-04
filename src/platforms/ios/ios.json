@@ -1,0 +1,43 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {
+            "config.xml": {
+                "parents": {
+                    "/*": [
+                        {
+                            "xml": "<feature name=\"iosrtcPlugin\"><param name=\"ios-package\" value=\"iosrtcPlugin\" /><param name=\"onload\" value=\"true\" /></feature>",
+                            "count": 1
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "installed_plugins": {
+        "cordova-plugin-iosrtc": {
+            "PACKAGE_NAME": "net.aquigorka.ioswebrtc"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "net.aquigorka.ioswebrtc"
+        }
+    },
+    "dependent_plugins": {},
+    "modules": [
+        {
+            "file": "plugins/cordova-plugin-iosrtc/dist/cordova-plugin-iosrtc.js",
+            "id": "cordova-plugin-iosrtc.Plugin",
+            "pluginId": "cordova-plugin-iosrtc",
+            "clobbers": [
+                "cordova.plugins.iosrtc"
+            ]
+        }
+    ],
+    "plugin_metadata": {
+        "cordova-plugin-iosrtc": "3.0.0",
+        "cordova-plugin-whitelist": "1.2.2"
+    }
+}
