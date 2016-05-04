@@ -1,6 +1,21 @@
 # iOS webRTC
 
-Starter kit for iOS (PhoneGap) apps that use webRTC.
+Starter kit for iOS (PhoneGap) apps that use webRTC. This app enables the user to load script from a url (local or global or ip), the script has access to webRTC global variables.
+
+### Build
+```sh
+npm i
+```
+
+### Run local server
+```sh
+python -m SimpleHTTPServer 8080
+```
+
+### Run simulator
+```sh
+phonegap cordova run ios
+```
 
 ### From scratch
 
