@@ -17,9 +17,9 @@ phonegap cordova run ios
 ```sh
 npm install xcode
 npm install -g ios-deploy
-mkdir ios-webrtc
-cd ios-webrtc
-phonegap create src "net.aquigorka.ioswebrtc" "iOS webRTC"
+mkdir my-app
+cd my-app
+phonegap create src "bundle_id" "app_name"
 cd src
 phonegap cordova platform add ios
 phonegap cordova plugin add cordova-plugin-iosrtc
