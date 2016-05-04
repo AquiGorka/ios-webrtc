@@ -2,7 +2,7 @@
 
 Starter kit for iOS apps (PhoneGap) that want to use webRTC. Running this app enables the user to load and execute a script from a url, the script has access to webRTC global variables.
 
-### Run local server
+### Run local server (if you need one, to fetch the script to execute)
 ```sh
 python -m SimpleHTTPServer 8080
 ```
